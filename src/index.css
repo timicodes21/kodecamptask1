@@ -2,10 +2,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-.roboto{
   font-family: 'Roboto', sans-serif;
 }
 
@@ -78,7 +74,7 @@ body {
 }
 
 .bg-pink{
-  background-color: #FFF8F5;
+  background-color: #FF6584;
 }
 
 .bg-black{
@@ -93,8 +89,8 @@ body {
   background-color: #F0FFEE;
 }
 
-.bg-llgreen{
-  background-color: #EEF8FF;
+.bg-blue{
+  background-color: #776EFF;
 }
 
 .bg-llblack{
@@ -118,20 +114,24 @@ body {
 }
 
 .text-ashh{
-  color: #474747;
+  color: #CCCCCC;
 }
 
 .text-ashhh{
   color: #535353;
 }
 
-.text-ashhhh{
-  color: #676767;
+.text-darkblue{
+  color: #2F2E41;
+}
+
+.text-pink{
+  color: #FF6584;
 }
 
 
 .text-blue{
-  color: #0D019A;
+  color: #776EFF;
 }
 
 .text-green{
@@ -141,4 +141,66 @@ body {
 .text-orange{
   color: #FF5C00;
 }
+
+a{
+  text-decoration: none !important;
+}
+
+.login-input{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.input-cover{
+  border: 2px solid #CCCCCC !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  position: relative;
+}
+
+.login-icon{
+  transform: scale(2.0);
+  color: #CCCCCC !important;
+  position: absolute;
+  top: 30%;
+  left: 89%;
+}
+
+.course-icon{
+  transform: scale(3.0);
+  color: #2F2E41;
+}
+
+.login-button{
+  border: none;
+}
+
+.sidebar{
+  height: 100vh;
+  background-color: #F8F9FA;
+}
+
+.sidebar-left{
+  height: 100vh;
+  background-color: #1E65F0;
+  border-radius: 0 20px 0 0;
+}
+
+.sidebar-right{
+  height: 100vh;
+}
+
+.hovercolor{
+  background-color: #273251;
+
+}
+
+.link:active{
+  color: #FF6584 !important;
+}
+
+.roundedd{
+  border-radius: 20px;
+}
+
 
