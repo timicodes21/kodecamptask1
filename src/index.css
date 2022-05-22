@@ -171,6 +171,11 @@ a{
   color: #2F2E41;
 }
 
+.menu-icon{
+  transform: scale(2.5);
+  color: #2F2E41;
+}
+
 .login-button{
   border: none;
 }
