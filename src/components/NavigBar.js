@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, Navbar, Container} from 'react-bootstrap'
+import { Nav, Navbar, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const NavigBar = ({ url, page }) => {
@@ -16,9 +16,7 @@ const NavigBar = ({ url, page }) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link>
-              <Link to={url} className='font-18 fw-bold text-primary'>{page}</Link>
-            </Nav.Link>
+            <Link to={url} className='font-18 fw-bold text-primary'>{page}</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

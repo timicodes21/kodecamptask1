@@ -7,6 +7,7 @@ import Courses from './components/dashboard/Courses';
 import Profile from './components/dashboard/Profile';
 import Logout from './components/dashboard/Logout';
 import CourseDetails from './components/dashboard/CourseDetails';
+import Register from './components/Register';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="dashboard" element={<Dashboard />}>
           <Route path="home" element={<Home />} />
           <Route path="courses" element={<Courses />} />

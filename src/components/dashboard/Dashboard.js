@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link, Outlet } from 'react-router-dom';
 
 const Dashboard = () => {
-    useEffect(() => {
-        console.log('use effect ran')
-    })
+    
   return (
     <Container fluid className="sidebar">
         <Row>

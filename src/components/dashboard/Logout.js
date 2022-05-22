@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Logout = () => {
   const navigate = useNavigate()
 
-  const handleLogout = () => {
+  const handleLogout = (e) => {
     navigate('/')
   }
 
@@ -21,7 +21,7 @@ const Logout = () => {
               <p className="font-18 fw-bold text-darkblue">Are you sure you want to Logout?</p>
             </div>
             <div>
-              <button onClick={handleLogout} className='bg-danger fw-bold login-button shadow mb-3 py-2 px-5 text-white'>Yes</button>
+              <button type='submit' onClick={(e) => handleLogout(e)} className='bg-danger fw-bold login-button shadow mb-3 py-2 px-5 text-white'>Yes</button>
               <div>
                 <button onClick={handleCancel} className='bg-success fw-bold login-button shadow mb-3 py-2 px-5 text-white'>No</button>
               </div>
