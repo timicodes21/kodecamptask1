@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/kodecamptask1/static/css/main.780f7283.css",
-    "main.js": "/kodecamptask1/static/js/main.35b52c79.js",
+    "main.css": "/kodecamptask1/static/css/main.658adf1b.css",
+    "main.js": "/kodecamptask1/static/js/main.27170c4b.js",
     "static/js/787.be978c48.chunk.js": "/kodecamptask1/static/js/787.be978c48.chunk.js",
+    "static/media/student.jpg": "/kodecamptask1/static/media/student.462eb485edf2bd9cf7ff.jpg",
+    "static/media/reading.png": "/kodecamptask1/static/media/reading.7e9cab4722fbfd3b2372.png",
+    "static/media/studentImg.png": "/kodecamptask1/static/media/studentImg.93d642ad2861d007d9e9.png",
+    "static/media/kodecamp.png": "/kodecamptask1/static/media/kodecamp.b9d723705ef70bccabfa.png",
     "index.html": "/kodecamptask1/index.html",
-    "main.780f7283.css.map": "/kodecamptask1/static/css/main.780f7283.css.map",
-    "main.35b52c79.js.map": "/kodecamptask1/static/js/main.35b52c79.js.map",
+    "main.658adf1b.css.map": "/kodecamptask1/static/css/main.658adf1b.css.map",
+    "main.27170c4b.js.map": "/kodecamptask1/static/js/main.27170c4b.js.map",
     "787.be978c48.chunk.js.map": "/kodecamptask1/static/js/787.be978c48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.780f7283.css",
-    "static/js/main.35b52c79.js"
+    "static/css/main.658adf1b.css",
+    "static/js/main.27170c4b.js"
   ]
 }
